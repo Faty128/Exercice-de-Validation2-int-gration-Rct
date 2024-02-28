@@ -2,15 +2,406 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NavBar CSS */
+header {
+  height: 100%;
+  background: #2d3952;
+  padding: 20px;
+}
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar-brand{
+  color: white;
+  font-size: 1.5rem;
+  font-family:'Franklin,'Arial, sans-serif;
+  font-weight: 700;
+
+}
+.navbar-brand:hover{
+  color: rgb(253, 250, 250);
+
+}
+.navbar-nav .nav-link{
+  color: #fff;
+  font-family:'Franklin,'Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.nav-login {
+  display: flex;
+  gap: 3rem;
+}
+.nav-login a{
+  text-decoration: none;
+  color: #fff;
+}
+.nav-login button{
+  width: 130px;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.nav-login button:hover{
+  background: #1e90ff;
+}
+
+.text {
+  display: block;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+}
+.text h6{
+  color: #1e90ff;
+}
+.text h1 {
+  font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3.5rem;
+  letter-spacing: 0.8px;
+  padding-top: 2.3rem;
+}
+.text p{
+font: 1.2em sans-serif;
+letter-spacing: 0.9px;
+padding-top: 2rem;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.button .div-button-1 .btn {
+  width: 150px;
+  height: 50px;
+  border: 1px solid #1e90ff;
+  background: #1e90ff;
+  color: #fff;
+}
+.button .div-button-2 .btn {
+  width: 150px;
+  height: 50px;
+  background: none;
+  border: 1px solid #1e90ff;
+  color: #1e90ff;
+
+}
+/* CSS Cards */
+.first {
+  border-radius: 10px;
+}
+
+.mini-card-0 {
+  background-color: rgb(228, 167, 167);
+  width: 60px; height: 65px; border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-card-1{
+  background-color: rgb(114, 197, 114);
+  width: 60px; height: 65px; border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-card-2 {
+  background-color: white;
+  width: 60px; height: 65px; border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mon-titre-2{
+  color: #fff;
+}
+
+.first .mon-titre{
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+.mytext-2{
+  color: #fff;
+}
+.first .mytext{
+  padding-top: 20px;
+  display: flex;
+  text-align: start;
   }
+
+  .first .mybord{
+    padding-top: 10px;
+  }
+  .myborder-0{
+    border: 1px solid red;
+    width: 50px;
+  }
+  .myborder-1{
+    border: 1px solid red;
+    width: 50px;
+  } .myborder-2{
+    border: 1px solid white;
+    width: 50px;
+  }
+
+  .first0{
+    background: white;
+  }
+  .first1{
+    background: white;
+  }
+  .first2{
+    background: skyblue;
+  }
+  /********* SECTION CSS *******/
+  .col-md-6.col-12 img{
+    width: 300px; height: 300px;
+  }
+  .col-md-6.col-12 .img2{
+    width: 100px; height: 100px;
+    position: relative;
+    top: -60px;
+    left: -350px;
+  }.col-md-6.col-12 .img3{
+    width: 350px; height: 130px;
+    position: relative;
+    left: -130px;
+    top: -60px;
+  }
+
+  .mon-div-text{
+    position: relative;
+    left: 5%;
+  }
+  .mon-div-text .my-border{
+    border: 3px solid red;
+    width: 100px;
+  }
+  .mon-div-text h1{
+    font-family: 'Popins' sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2d3952;
+  }
+  .mon-div-text p{
+    font-weight: 500;
+    color: rgb(80, 78, 78);
+  }
+  .mon-div-text h5{
+    font-weight: 500;
+    color: rgb(71, 166, 204);
+  }
+  .mon-div-text2{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+  }
+  .mon-div-text2 h1{
+    font-family: 'Popins' sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2d3952;
+  }
+  .mon-div-text2 h6{
+    font-weight: 500;
+    color: rgb(71, 166, 204);
+  }
+  .mon-div-text2 p{
+    font-weight: 500;
+    color: rgb(80, 78, 78);
+  }
+
+  .my-col-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.g-4, .gy-4 {
+  --bs-gutter-y: 1.5rem;
+  gap: 10px;
+}
+  .div-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-img .btn {
+    position: relative;
+    width: 55px;
+    height: 32px;
+    border: 1px solid rgb(221, 55, 55);
+    background: rgb(221, 55, 55);
+    color: #fff;
+    left: -80px;
+    top: -17.5rem;
+  }
+  .div-img .div-icons .fa{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    left: -10px;
+    top: -100px;
+    padding-top: 10px;
+  }
+  
+  .myblock-text {
+    display: block;
+    margin-left: 3rem;
+    margin-top: -2rem;
+  }
+
+  .myblock-text .my-titre{
+    gap: 3.5rem;
+  }
+  .my-titre h6{
+   color: #1e90ff;
+  }
+  .myblock-text .titre-english{
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 1px solid #2d3952;
+    background: #2d3952;
+  }
+  .myblock-text .titre-english i{ 
+    color: orange;
+    font-size: 10px;
+  }
+  .myblock-text .titre-english p{ 
+    color: #fff;
+    font-size: 13px;
+  }
+  .myblock-text .text-start h4{
+    font-size: 15px;
+    font-weight: 700;
+    color: #2d3952;
+  }
+  .myblock-text .text-start p{
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+  }
+ 
+  .myblock-text .sales i{
+    font-size: 15px;
+    color: gray;
+  }
+  .myblock-text .sales p{
+    font-size: 15px;
+    color: gray;
+    font-weight: 700;
+  }
+
+  .myblock-text .div-dollar{
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(185, 183, 183);
+  }
+  .myblock-text .div-dollar .p2{
+    gap: 10px;
+    color: limegreen;
+  }
+
+  .myblock-text .my-icons{
+    font-size: 13px;
+    color: gray;
+    gap: 5px;
+  }
+  .my-icons .div-clock i{
+    color: #1e90ff;
+  }
+  .my-icons .server i{
+    color: orange;
+  }
+
+  .button .my-button{
+    width: 150px;
+    height: 40px;
+    margin-left: -70px;
+    margin-top: -1rem;
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    color: #1e90ff;
+  }
+  .button .my-button:hover{
+    background: #1e90ff;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .mn-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  .para .fa-stare {
+    color: orange;
+  }
+
+  .fa, .fa-brands, .fa-classic, 
+  .fa-regular, .fa-sharp, 
+  .fa-solid, .fab, .far, .fas {
+    margin: 5px;
+}
+  .para h5 {
+    color: #282c34;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .para p {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(80, 78, 78);
+
+  }
+  .input-group>.form-control, 
+  .input-group>.form-floating, 
+  .input-group>.form-select {
+    flex: 0 0 auto;
+}
+
+  .input-group>.button-newlester{
+    width: 50% !important;
+    position: relative;
+    min-width: 0;
+}
+  .input-group .btn{
+    background-color: #1e90ff;
+    color: #fff;
+    border: 1px solid skyblue;
+}
+
+  .my-footer{
+    text-align: start;
+    background: #2d3952;
+    color: white;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+  .fa-brands, .fab {
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px;
+    color: rgb(39, 188, 247);
+}
+
+.text-figma{
+  color: gray;
+  font-weight: 700;
 }
 
 .App-header {
@@ -34,5 +425,106 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    display: block;
+    }
+    .nav-login {
+      display: block;
+      gap: 3rem;
+    }
+  .col-md-6.col-12 .img2{
+    width: 100px; height: 100px;
+    top: 0px;
+    left: 0px;
+  }.col-md-6.col-12 .img3{
+    width: 300px; height: 100px;
+    left: 0;
+    top: 0;
+  }
+  .mon-div-text{
+    left: 0;
+    top: 0;
+  }
+  .div-img{
+    display: grid;
+  }
+  .div-img .btn {
+    width: 55px;
+    height: 35px;
+    border: 1px solid rgb(221, 55, 55);
+    background: rgb(221, 55, 55);
+    color: #fff;
+    margin-left: -40px;
+    margin-top: 160px;
+  }
+  .div-img .div-icons .fa{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 35px;
+    padding-top: 10px;
+    color: none;
+  }
+  .myblock-text {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: -2rem;
+ 
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: block;
+  }
+    .nav-login {
+      display: block;
+      margin: auto;
+      gap: 3rem;
+  }
+  .col-md-6.col-12 .img2{
+    width: 100px; height: 100px;
+    top: -350px;
+    left: 0;
+  }.col-md-6.col-12 .img3{
+    width: 300px; height: 100px;
+    left: 0;
+    top: 0;
+  }
+  .mon-div-text{
+    left: 0;
+    top: 0;
+  }
+  .div-img .btn {
+    width: 55px;
+    height: 35px;
+    border: 1px solid rgb(221, 55, 55);
+    background: rgb(221, 55, 55);
+    color: #fff;
+    left: -50px;
+    top: -200px;
+  }
+  .div-img .div-icons .fa{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    left: -5px;
+    top: -90px;
+    padding-top: 10px;
+    color: none;
+  }
+  .myblock-text {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: -2rem;
+ 
   }
 }
